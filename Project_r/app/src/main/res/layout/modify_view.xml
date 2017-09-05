@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/btnLeftImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:background="#00ff0000"
+        android:drawableTop = "@drawable/left_r"
+        />
+
+    <Button
+        android:id="@+id/btnRightImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:background="#00ff0000"
+        android:drawableTop = "@drawable/right_r"
+         />
+
+    <Button
+        android:id="@+id/btnselectImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:background="#00ff0000"
+        android:drawableTop = "@drawable/select_r" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scaleType="fitXY"
+
+        android:id="@+id/imageView"
+        />
+
+</FrameLayout>
